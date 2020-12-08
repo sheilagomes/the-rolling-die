@@ -1,0 +1,109 @@
+:root {
+  --body: #AEB8FE;
+  --dice: #EFE5DC;
+  --dot: black;
+  --dot-margin: 5px;
+}
+
+body {
+    background-image: radial-gradient(#9FE2BF, #73c6b6, #008080);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dice {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: var(--dice);
+    margin-top: 80px;
+    display: grid;
+    grid-template-areas:
+    '1st 2nd 3rd'
+    '4th 5th 6th'
+    '7th 8th 9th';
+}
+
+.number {
+    font-weight: bold;
+    font-size: 2em;
+    color: var(--dot);
+    margin: 50px;
+}
+
+.black {
+    background-color: var(--dot);
+}
+
+.dot1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    margin: var(--dot-margin);
+    grid-area: 1st;
+}
+
+.dot2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    margin: var(--dot-margin);
+    grid-area: 2nd;    
+}
+
+.dot3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    margin: var(--dot-margin);
+    grid-area: 3rd;
+}
+
+.dot4 {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    margin: var(--dot-margin);
+    grid-area: 4th;
+}
+
+.dot5 {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    margin: var(--dot-margin);
+    grid-area: 5th;
+}
+
+.dot6 {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    margin: var(--dot-margin);
+    grid-area: 6th;
+}
+
+.dot7 {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    margin: var(--dot-margin);
+    grid-area: 7th;
+}
+
+.dot8 {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    margin: var(--dot-margin);
+    grid-area: 8th;
+}
+
+.dot9 {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    margin: var(--dot-margin);
+    grid-area: 9th;
+}
